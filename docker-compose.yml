@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  backend:
+    container_name: embedchain_api
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
