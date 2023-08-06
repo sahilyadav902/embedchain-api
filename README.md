@@ -2,7 +2,7 @@
 
 ## Docker Setup
 
-- Rename sample.env to .env, and edit it to add your Open AI API Key.
+- Open variables.env, and edit it to add your Open AI API Key.
 - To setup your api server using docker, run the following command inside this folder using your terminal.
 ```bash
 docker-compose up --build
